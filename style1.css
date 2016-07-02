@@ -107,24 +107,24 @@ div.name p {
 
 div.text_box {
 	left: 50%;
-	margin-left: -300px;
+	margin-left: -350px;
 	background-color: #505050;
 	opacity: 0.7;
 	position: fixed;
 	height: 100%;
-	width: 600px;
+	width: 700px;
 	
 	
 }
 
 /* separate div to allow for differing opacities */
 div.text_in_box {
-	height: 500px;
-	width: 600px;
+	height: 700px;
+	width: 700px;
 	position: absolute;
 	top: 100px;
 	left: 50%;
-	margin-left: -300px;
+	margin-left: -350px;
 }
 
 h3.page_header {
@@ -145,13 +145,11 @@ p.normal_text {
 
 }
 
+/* bio page icon formatting */
 img.icon {
 	height: 100px;
 	width: 100px;
 	margin-top: 550px;
-	/*margin-left: -300px;*/
-	/*margin-left: 300px;*/
-	/*z-index: 2;*/
 	position: absolute;
 }
 
