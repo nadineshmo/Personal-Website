@@ -114,13 +114,14 @@ div.text_box {
 	height: 100%;
 	width: 600px;
 	
+	
 }
 
 /* separate div to allow for differing opacities */
 div.text_in_box {
 	height: 500px;
 	width: 600px;
-	position: fixed;
+	position: absolute;
 	top: 100px;
 	left: 50%;
 	margin-left: -300px;
@@ -141,6 +142,28 @@ p.normal_text {
 	color: white;
 	font-family: Futura;
 	padding-bottom: 10px;
+
+}
+
+img.icon {
+	height: 100px;
+	width: 100px;
+	margin-top: 550px;
+	/*margin-left: -300px;*/
+	/*margin-left: 300px;*/
+	/*z-index: 2;*/
+	position: absolute;
+}
+
+#i1 {
+	left: 50%;
+	margin-left: -150px;
+}
+
+#i2 {
+	left: 50%;
+	margin-left: 50px;
+
 }
 
 
